@@ -1,0 +1,402 @@
+/* 清零 */
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+img,input{
+	border: none;
+	border-bottom: 1px solid none;
+}
+li{
+	list-style: none;
+}
+/* 公共样式 */
+a{
+	color: #7477BB;
+	font-size: 12px;
+}
+a:hover{
+	background-color:#3377AA;
+	color:#FFFFFF;
+}
+h2{
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #072;
+	margin: 0 0 12px 0;
+	line-height: 150%;
+}
+.con-bg{
+	width: 100%;
+	height: 768px;
+	background: #f7f7f7;
+}
+/* 头部 */
+#hd-header{
+	width: 951px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+#hd-header .header-logo{
+	display: block;
+	width: 154px;
+	height: 30px;
+	background: url(./images/logo_db.png) no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 29px;
+}
+#hd-header .header-search{
+	width: 263px;
+	height: 30px;
+	position: absolute;
+	border: 1px solid #c3c3c3;
+	left: 183px;
+	top: 31px;
+	color: #e3e7ee;
+	padding-left: 7px;
+}
+#hd-header p{
+	background: url(./images/bn_srh_1.png);
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	left: 432px;
+	top: 42px;
+}
+#hd-header ul{
+	width: 464px;
+	height: 20px;
+	position: absolute;
+	right: 0px;
+	top: 36px;
+	
+}
+#hd-header ul li{
+	float: left;
+	margin-right: 15px;
+}
+#hd-header ul li a{
+	display: block;
+	width: 40px;
+	height: 20px;
+	
+}
+#hd-header ul li .header-book{
+	background: url(./images/anony_nav_logo.png) 0px 0px no-repeat;
+}
+#hd-header ul li .header-movie{
+	background: url(./images/anony_nav_logo.png) -59px 0px no-repeat;
+}
+#hd-header ul li .header-music{
+	background: url(./images/anony_nav_logo.png) -120px 0px no-repeat;
+}
+#hd-header ul li .header-group{
+	background: url(./images/anony_nav_logo.png) -180px 0px no-repeat;
+}
+#hd-header ul li .header-fm{
+	background: url(./images/anony_nav_logo.png) -241px 0px no-repeat;
+}
+#hd-header ul li .header-city{ 
+	background: url(./images/anony_nav_logo.png) -299px 0px no-repeat;
+}
+#hd-header ul li .header-sth{ 
+	background: url(./images/anony_nav_logo.png) -359px 0px no-repeat;
+}
+#hd-header ul li .header-market{ 
+	background: url(./images/anony_nav_logo.png) -421px 0px no-repeat;
+}
+/* 头部结束 */
+
+/* 注册区域 */
+#hd-reg-background{
+	background-color: #eef4ed;
+	height: 179px;
+	width: 100%;
+
+}
+#reg-bg{
+	background: url(images/nav_db.jpg) 133px 0px no-repeat;
+}
+#hd-reg{
+	width: 951px;
+	height: 179px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+#hd-reg .app{
+	width:145px; 
+	height:98px;
+	position: absolute;
+	left: 399px;
+	top:34px;
+
+
+}
+#hd-reg .app-title{
+	font-size: 25px;
+	color: #111;
+	line-height: 24px;
+}
+#hd-reg .app-title span{
+	color: #666;
+	margin-left: 10px;
+	font-weight: 100;
+}
+#hd-reg .app-slogan{
+	color: #111;
+	margin: 5 0 16px;
+	text-align: justify;
+}
+#hd-reg .app-slogan span{
+	font-size: 12px;
+}
+#hd-reg .app-icon{
+	height: 29px;
+	width: 145px;
+	
+}
+#hd-reg .lnk-app{
+	display: block;
+	width:110px; 
+	height:30px;
+	color:#FFF;
+	background: #3CA353; 
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	border-radius: 3px;
+}
+
+#hd-reg .app-qr{
+	height: 28px;
+	width: 28px;
+	display: block;
+	float: left;
+	border:1px solid #48AA0D; 
+	margin-left: 3px;
+}
+#hd-reg .app-icon img{
+	height: 27px;
+	width: 27px;
+}
+
+#hd-reg .login{
+	width: 270px;
+	height:132px;
+	position: absolute;
+	right: 0px;
+	top:30px;
+}
+#hd-reg .item{
+	width: 270px;
+	height:30px;
+	border:1px solid #e4e4e4; 
+	margin-bottom: 4px;
+}
+#hd-reg .item input{
+	width: 262px;
+	height: 100%;
+	font-size: 12px;
+	padding-left: 8px;
+	color: #e4e4e4;
+}
+#hd-reg .item-submit{
+	width: 270px;
+	margin-top: 3px;
+	border: none;
+	
+}
+#hd-reg .item-submit input{
+	display: block;
+	width: 130px;
+	height: 30px;
+	background-color: #30a080; 
+	color: #ffffff;
+	text-align:center;
+	border-radius: 3px;
+	float: left;
+}
+#hd-reg .lnk-reg{
+	display: block;
+	width:128px; 
+	height:28px;
+	color:#30a080;
+	font-size: 12px;
+	text-align: center;
+	line-height: 28px;
+	float: left;
+	border:1px solid #30a080;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+#hd-reg .item-action{
+	width: 270px;
+	height: 20px;
+	font-size: 12px;
+	color: #666666;
+}
+#hd-reg .item-action input{
+	margin-right: 3px;
+	vertical-align: middle;
+}
+#hd-reg .item-action-third{
+	float: right;
+}
+#hd-reg .item-action-third li{
+	float: left;
+}
+
+/* 注册区域结束 */
+
+/* 内容区域 */
+#con-sns{
+	width: 949px;
+	height: 609px;
+	margin: 0 auto;
+}
+#con-sns .ad{
+	width: 949px;
+	height: 125px;
+	background: url(images/ad.jpg) 0px 38px no-repeat;
+}
+#con-sns .main{
+	width: 680px;
+	height: 484px;
+	float: left;
+	font-size: 12px;
+}
+#con-sns .albums {
+	width: 378px;
+	height: 484px;
+	float: left;
+}
+#con-sns .albums li{
+	width: 189px;
+	height: 200px;
+	float: left;
+	
+}
+#con-sns .albums span{
+	color: #999999;
+	margin-left: 2px;
+}
+#con-sns .note {
+	width: 300px;
+	height:484px;
+	float: left;
+}
+#con-sns .note li{
+	margin-bottom: 20px;
+}
+#con-sns .side{
+	width: 265px;
+	height: 484px;
+	float: left;
+
+}
+#con-sns .side li{
+	margin-bottom: 5px;
+}
+#con-sns .side .con{
+	font-size: 12px;
+	color: #999;
+}
+
+/* 电影 */
+
+#con-movie{
+	width: 949px;
+	height:767px;
+	margin: 0 auto;
+}
+#con-movie .blank{
+	width: 949px;
+	height: 42px;
+	
+}
+#con-movie .main{
+	width: 561px;
+	height: 597px;
+	float: left;
+}
+#con-movie .main .star span{
+	display: inline-block;
+	width: 55px;
+	height: 10px;
+	background:url(images/movie/ic_rating_s.png)0px 0px no-repeat;
+}
+#con-movie .main .movie-list{
+	text-align: center;
+	margin-left: 16px;
+}
+#con-movie .main li{
+	width:102px;
+	height:226px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 40px;
+}
+
+#con-movie .main .title a{
+	font-size: 14px;
+	color: #333333;
+}
+#con-movie .main input{
+	margin: 0 auto;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	font-size: 12px;
+	background: #1c8bd0;
+	border-radius: 2px;
+
+}
+
+#con-movie .left{
+	width: 116px;
+	height: 597px;
+	float: left;
+}
+#con-movie .left li{
+	margin-bottom: 4px;
+	font-size: 20px;
+}
+#con-movie .left h2 a{
+	font-size: 28px;
+}
+#con-movie .left  li a{
+	font-size: 14px;
+	color: #27a;
+}
+#con-movie .right{
+	width: 265px;
+	height: 597px;
+	float: left;
+}
+#con-movie .right .top {
+	width: 265px;
+	height: 196px;
+}
+#con-movie .right .top li{
+	float: left;
+	margin-right: 25px;
+}
+#con-movie .right .bottom li{
+	list-style-position: inside;
+	list-style-type: decimal;
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 6px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+/* 内容区域结束 */
+
+
